@@ -1,0 +1,13 @@
+* change property to inline from App.css to avoid error when pushed online
+*theme: black
+*see more under courses :: show more courses
+*register to paystack page (different languages
+)
+*contact - will send an email to me.
+
+
+*push changes online
+
+* javascript search through a course
+
+* A modal should come up for each language and then the register for the course button
