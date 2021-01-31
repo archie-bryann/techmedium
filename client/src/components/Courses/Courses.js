@@ -1,8 +1,25 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Courses({courses, limit}) {
 
+    const [c, setC] = useState(courses);
+
+    function searchCourse(e) {
+        const excludeColumns = [];
+        const value = e.target.value;
+        console.log(value)
+        const lowercasedValue = value.toLowerCase().trim();
+        if (lowercasedValue === "") setC(courses);
+        else {
+            const filteredData = courses.filter(item => {
+            return Object.keys(item).some(key =>
+                excludeColumns.includes(key) ? false : item[key].toString().toLowerCase().includes(lowercasedValue)
+            );
+            });
+            setC(filteredData);
+        }
+    }
 
     return (
         <section id="course" className="course">
@@ -13,21 +30,17 @@ function Courses({courses, limit}) {
 
         <h1 className="heading">our courses</h1>
         <h3 className="title">upgrade your skills with newest courses</h3>
-
-
       
         {(limit < 1) && (
-                <input className = "search-course" placeholder = "Search for a course" />
+                <input className = "search-course" placeholder = "Search for a course" onChange = {searchCourse} />
         )}
 
         <div className="box-container">
-
             {
-                (limit < 1) ? courses.map(({icon,name,caption,description, redrUrl})=>{
+                (limit < 1) ? c.map(({id,icon,name,caption,description, redrUrl})=>{
                     return (
 
-                        <Fragment>
-
+                        <Fragment key = {id}>
 
                             <div className = "box">
                                 <i className = {icon}></i>
@@ -38,19 +51,22 @@ function Courses({courses, limit}) {
 
                         </Fragment>
                     )
-                }) : courses.slice(0,6).map(({icon,name,caption,description, redrUrl})=>{
+                }) : c.slice(0,6).map(({id,icon,name,caption,description, redrUrl})=>{
                     return (
-                        <div className = "box">
-                            <i className = {icon}></i>
-                            <h3>{name}</h3>
-                            <p>{caption}</p>
-                            <button className = "register">Register</button>
-                        </div>
+                        <Fragment key = {id}>
+                            <div className = "box">
+                                    <i className = {icon}></i>
+                                    <h3>{name}</h3>
+                                    <p>{caption}</p>
+                                    <button className = "register">Register</button>
+                            </div>
+                        </Fragment>
+                        
                     )
                 })
             }
 
-            
+
 {/* 
             <div className="box">
                 <i className="fab fa-html5"></i>
