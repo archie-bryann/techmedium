@@ -48,7 +48,13 @@ function App() {
                 <CourseDetails match = {match} courses = {courses} /> 
                 {/* short note and video explanation on it */}
               </Fragment>
-        )} /> 
+        )} />
+
+        <Route path = "/certifications" exact = {true} component = {({match})=>(
+          <Fragment>
+              
+          </Fragment>
+        )} />
       </Switch>
      </Router>
      
