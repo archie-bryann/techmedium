@@ -614,13 +614,70 @@ header .fa-bars{
   color:var(--pink);
 }
 
-
-
-
 header .fa-times{
   transform: rotate(180deg);
   /* color:var(--violet); */
   color:var(--pink);
+}
+
+.description {
+  font-size: 1.5rem;
+  color:black;
+  padding:1rem 0;
+} 
+
+@media(min-width: 1200px) {
+  .videoWrapper {
+      margin-left: 25%;
+  }
+}
+
+
+
+@media screen and (min-width : 992px) and  (max-width : 1199px) {
+  .videoWrapper {
+    margin-left: 22%;
+}
+}
+
+@media(max-width: 991px) {
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 
 /* media queries  */
