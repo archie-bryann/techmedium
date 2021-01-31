@@ -3,6 +3,7 @@ import $ from 'jquery'
 import { Link } from 'react-router-dom'
 import Title from '../Title/Title';
 
+
 function Header() {
 
     const [x, setX] = useState(null);
@@ -153,13 +154,12 @@ function Header() {
 
             <nav className={`navbar ${n}`}>
                 <ul>
-                    <li><a href="#home" onClick = {setHome} className = {homeClass}>home</a></li>
-                    <li><a href="#about" onClick = {setAbout} className = {aboutClass}>about</a></li>
-                    <li><a href="#teacher" onClick = {setTeacher} className = {teacherClass}>teachers</a></li>
-                    {/* <li><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></li> */}
-                    <li><Link to = "/courses#courses"><a onClick = {setCourse} className = {courseClass}>courses</a></Link></li>
-                    <li><a href="#review" onClick = {setReview} className = {reviewClass}>reviews</a></li>
-                    <li><a href="#contact" onClick = {setContact} className = {contactClass}>contact</a></li>
+                    <li><Link to = "/"><a onClick = {setHome} className = {homeClass}>Back To Home</a></Link></li>
+                    {/* <li><a href="#about" onClick = {setAbout} className = {aboutClass}>about</a></li> */}
+                    {/* <li><a href="#teacher" onClick = {setTeacher} className = {teacherClass}>teacher</a></li> */}
+                    <li><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></li>
+                    {/* <li><a href="#review" onClick = {setReview} className = {reviewClass}>review</a></li>
+                    <li><a href="#contact" onClick = {setContact} className = {contactClass}>contact</a></li> */}
                 </ul>
             </nav>
 

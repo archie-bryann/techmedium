@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Welcome({imagesUrl}) {
 
@@ -8,7 +9,11 @@ function Welcome({imagesUrl}) {
                 <div className="content">
                     <h1>learn online form home</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum accusantium dolore esse error facere totam eveniet dicta molestiae ea?</p>
-                    <a href="#"><button>view courses</button></a>
+
+                    {/* <a href="#"><button>view courses</button></a> */}
+                    <Link to = "/courses#courses">
+                        <button>view courses</button>
+                    </Link>
                 </div>
 
                 <div className="box-container">

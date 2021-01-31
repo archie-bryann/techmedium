@@ -342,7 +342,7 @@ header .fa-bars{
   flex-wrap: wrap;
 }
 
-.box-container .box button {
+.box-container .box button{
   height:3rem;
   width:20rem;
   border-radius: 5rem;
@@ -355,10 +355,30 @@ header .fa-bars{
   box-shadow: 0 .3rem 1rem rgba(0,0,0,.3);
 }
 
-.box-container .box button:hover {
+.box-container .box button:hover, .see-more:hover {
   letter-spacing: .2rem;
 }
 
+.see-more {
+  height:3rem;
+  width:20rem;
+  border-radius: 5rem;
+  background:var(--pink);
+  color:#fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: .2s;
+  border:none;
+  box-shadow: 0 .3rem 1rem rgba(0,0,0,.3);
+
+  width:65%;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding-top: 0.5rem;
+  /* flex-wrap: wrap; */
+  margin-bottom: 50px;
+}
 
 .course .box-container .box{
   height:20rem;
@@ -476,7 +496,7 @@ header .fa-bars{
   padding-right: 6rem;
 }
 
-.contact .row .form-container input, textarea{
+.contact .row .form-container input, textarea {
   height:4rem;
   width:100%;
   background:#fff;
@@ -487,6 +507,22 @@ header .fa-bars{
   color:var(--pink);
   font-size: 1.7rem;
   transition: .2s linear;
+}
+
+.search-course {
+  width:40%;
+  display: flex;
+  justify-content: center;
+  margin:0 auto;
+  padding-top: 0.5rem;
+  margin-bottom: 50px;
+  border-radius: 5rem;
+  outline:none;
+  height:4rem;
+  border:1px solid;
+  padding:0 1rem;
+  margin-top: 50px;
+  margin-bottom: 20px;  
 }
 
 .contact .row .form-container input:focus, textarea:focus{
