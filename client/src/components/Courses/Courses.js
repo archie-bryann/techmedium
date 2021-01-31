@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import { Link } from 'react-router-dom'
+import slugify from 'react-slugify'
 
 function Courses({courses, limit}) {
 
@@ -46,7 +47,9 @@ function Courses({courses, limit}) {
                                 <i className = {icon}></i>
                                 <h3>{name}</h3>
                                 <p>{caption}</p>
-                                <button className = "register">Register</button>
+                                <Link to = {`/course/${slugify(name)}`}>
+                                    <button className = "register">Register</button>
+                                </Link>
                             </div>
 
                         </Fragment>
@@ -58,7 +61,9 @@ function Courses({courses, limit}) {
                                     <i className = {icon}></i>
                                     <h3>{name}</h3>
                                     <p>{caption}</p>
-                                    <button className = "register">Register</button>
+                                    <Link to = {`/course/${slugify(name)}`}>
+                                        <button className = "register">Register</button>
+                                    </Link>
                             </div>
                         </Fragment>
                         
@@ -114,7 +119,7 @@ function Courses({courses, limit}) {
         </div>  
         {(limit > 1) && (
             // link /courses#courses
-            <Link to = "/courses#courses">
+            <Link to = "/courses#course">
                 <button className = "see-more">view all courses</button>
             </Link>
         )}

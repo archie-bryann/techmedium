@@ -11,7 +11,7 @@ function Welcome({imagesUrl}) {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum accusantium dolore esse error facere totam eveniet dicta molestiae ea?</p>
 
                     {/* <a href="#"><button>view courses</button></a> */}
-                    <Link to = "/courses#courses">
+                    <Link to = "/courses#course">
                         <button>view courses</button>
                     </Link>
                 </div>

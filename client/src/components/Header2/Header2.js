@@ -1,10 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState, useRef, Fragment } from 'react'
 import $ from 'jquery'
 import { Link } from 'react-router-dom'
 import Title from '../Title/Title';
 
 
-function Header() {
+function Header2({show}) {
 
     const [x, setX] = useState(null);
     const [n, setN] = useState(null);
@@ -157,7 +157,13 @@ function Header() {
                     <li><Link to = "/"><a onClick = {setHome} className = {homeClass}>Back To Home</a></Link></li>
                     {/* <li><a href="#about" onClick = {setAbout} className = {aboutClass}>about</a></li> */}
                     {/* <li><a href="#teacher" onClick = {setTeacher} className = {teacherClass}>teacher</a></li> */}
-                    <li><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></li>
+                    {(show!==0) ? (
+                        <li><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></li>
+
+                    ) : (
+                        
+                        <li><Link to = "/courses#course"><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></Link></li>
+                    )}
                     {/* <li><a href="#review" onClick = {setReview} className = {reviewClass}>review</a></li>
                     <li><a href="#contact" onClick = {setContact} className = {contactClass}>contact</a></li> */}
                 </ul>
@@ -168,4 +174,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header2

@@ -16,10 +16,10 @@ function Contact({imagesUrl}) {
         
             <div className="form-container">
                 <form action="">
-                    <input type="text" placeholder="full name" />
-                    <input type="email" placeholder="enter your email" />
-                    <input type="number" placeholder="phone" />
-                    <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                    <input type="text" placeholder="Full name" />
+                    <input type="email" placeholder="Enter your email" />
+                    <input type="number" placeholder="Phone" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <input type="submit" value="message" />
                 </form>
             </div>

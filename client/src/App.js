@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { BrowserRouter as Router, Redirect, Route,Switch } from 'react-router-dom'
 import courses from './data/courses_data'
+import CourseDetails from './pages/CourseDetails/CourseDetails';
 
 function App() {
 
@@ -39,6 +40,14 @@ function App() {
               <Courses courses = {courses} limit = {0} />
           </Fragment>
         )} />
+
+        <Route path = "/course/:course" exact = {true} component = {({match})=>(
+              <Fragment>
+                <Header2 show = {0} />
+                <CourseDetails match = {match} courses = {courses} /> 
+                {/* short note and video explanation on it */}
+              </Fragment>
+        )} /> 
       </Switch>
      </Router>
      
