@@ -34,6 +34,9 @@ function CourseDetails({match, courses}) {
 
                 <p className =  "description" dangerouslySetInnerHTML={{__html: course.description}} />
 
+                <br />
+
+                <h3 style = {{fontSize:'1.7rem'}}>Duration: {course.duration} days</h3>    
             </div>
 
             <br />
