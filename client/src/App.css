@@ -540,6 +540,9 @@ header .fa-bars{
 ::placeholder { /* Recent browsers */
   text-transform: none;
 }
+input[type="email"],textarea {
+  text-transform: none;
+}
 
 .contact .row .form-container input:focus, textarea:focus{
   border:.2rem solid var(--pink);
@@ -760,5 +763,11 @@ header .fa-times{
   .contact .row .form-container{
     width:90%;
     padding:0;
+    text-transform: none;
   }
+}
+
+.Toastify__toast, .Toastify__toast--error {
+  font-size: 15px;
+  text-transform: none !important;
 }

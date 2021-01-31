@@ -16,6 +16,7 @@ import CourseDetails from './pages/CourseDetails/CourseDetails';
 
 function App() {
 
+  const serverUrl = "http://localhost:7000/";
   const imagesUrl = "http://localhost:9000/";
 
   return (
@@ -31,7 +32,7 @@ function App() {
               <Teacher imagesUrl = {imagesUrl} />
               <Courses courses = {courses} limit = {6} />
               <Reviews imagesUrl = {imagesUrl} />
-              <Contact imagesUrl = {imagesUrl} />
+              <Contact imagesUrl = {imagesUrl} serverUrl = {serverUrl} />
           </Fragment>
         )} />
         <Route path = "/courses" exact = {true} component = {()=>(

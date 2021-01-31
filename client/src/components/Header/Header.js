@@ -44,35 +44,35 @@ function Header() {
             if(top >= offset && top < offset + height){
               // $('.navbar ul li a').removeClass('active');
               // $('.navbar').find('[href="#' + id + '"]').addClass('active');
-              if(id == 'home') {
+              if(id === 'home') {
                   setHomeClass('active');
                   setAboutClass(null);
                   setTeacherClass(null);
                   setCourseClass(null);
                   setReviewClass(null);
                   setContactClass(null);
-              } else if(id == "about") {
+              } else if(id === "about") {
                   setHomeClass(null);
                   setAboutClass('active');
                   setTeacherClass(null);
                   setCourseClass(null);
                   setReviewClass(null);
                   setContactClass(null);
-              } else if(id == "teacher") {
+              } else if(id === "teacher") {
                   setHomeClass(null);
                   setAboutClass(null);
                   setTeacherClass('active');
                   setCourseClass(null);
                   setReviewClass(null);
                   setContactClass(null);
-              } else if(id == "course") {
+              } else if(id === "course") {
                   setHomeClass(null);
                   setAboutClass(null);
                   setTeacherClass(null);
                   setCourseClass('active');
                   setReviewClass(null);
                   setContactClass(null);
-              } else if(id == "review") {
+              } else if(id === "review") {
                   setHomeClass(null);
                   setAboutClass(null);
                   setTeacherClass(null);
