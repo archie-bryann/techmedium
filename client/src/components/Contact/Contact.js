@@ -5,7 +5,7 @@ function Contact({imagesUrl}) {
         <section className="contact" id="contact">
 
         <h1 className="heading" style = {{color:'white'}}>contact us</h1>
-        <h3 className="title">we love conversations, lets talk.</h3>
+        <h3 className="title">We'll get back to you via email in minutes</h3>
         
         <div className="row">
         

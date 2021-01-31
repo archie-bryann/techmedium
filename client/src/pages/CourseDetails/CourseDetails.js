@@ -39,7 +39,7 @@ function CourseDetails({match, courses}) {
             <br />
             <br />
 
-            <a href = {course.redrUrl}>
+            <a href = {course.payUrl}>
                 <button className = "see-more" style = {{width:'80%', height:'4.5rem',fontSize:'17px',paddingTop:'1rem'}}>register for this course (₦{Number(course.fee).toLocaleString(undefined, {maximumFractionDigits:2})})</button>
             </a>
             <div style = {{height:'20px'}}></div>

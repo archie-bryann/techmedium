@@ -7,7 +7,7 @@ const courses = [
     caption:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
     fee: 80000,
     description:"<h3>Description</h3><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, exLorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /><br /><h3>What to Expect:</h3> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur. </li> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur.</li> <li>Lorem ipsum dolor sit amet consectetur.</li>",
-    redrUrl:"https://www.paystack.com/",
+    payUrl:"https://www.paystack.com/",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/CKlh1lwe2rY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -16,8 +16,9 @@ const courses = [
     name: "css3",
     full:"cascading style sheet 3",
     caption: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
-    redrUrl:"",
+    fee: 80000,
+    description: "<h3>Description</h3><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, exLorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /><br /><h3>What to Expect:</h3> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur. </li> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur.</li> <li>Lorem ipsum dolor sit amet consectetur.</li>",
+    payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/CKlh1lwe2rY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -26,8 +27,9 @@ const courses = [
     name:"javascript",
     full:"javascript",
     caption:"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
-    redrUrl:"",
+    fee: 80000,
+    description:"<h3>Description</h3><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, exLorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /><br /><h3>What to Expect:</h3> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur. </li> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur.</li> <li>Lorem ipsum dolor sit amet consectetur.</li>",
+    payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/CKlh1lwe2rY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -36,8 +38,9 @@ const courses = [
     name:"seo marketing",
     full:"seo marketing",
     caption:"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
-    redrUrl:"",
+    fee: 80000,
+    description:"<h3>Description</h3><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, exLorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /><br /><h3>What to Expect:</h3> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur. </li> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur.</li> <li>Lorem ipsum dolor sit amet consectetur.</li>",
+    payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/CKlh1lwe2rY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
@@ -46,8 +49,9 @@ const courses = [
     name:"graphic design",
     full:"graphic design",
     caption:"Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.",
-    redrUrl:"",
+    fee: 80000,
+    description:"<h3>Description</h3><br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, exLorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex. <br /><br /><h3>What to Expect:</h3> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur. </li> <li>Lorem ipsum dolor sit amet consectetur.</li>  <li>Lorem ipsum dolor sit amet consectetur.</li> <li>Lorem ipsum dolor sit amet consectetur.</li>",
+    payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/CKlh1lwe2rY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 }]
 
