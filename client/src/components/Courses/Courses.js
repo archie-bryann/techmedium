@@ -61,7 +61,7 @@ function Courses({courses, limit}) {
                             <div className = "box">
                                     <i className = {icon}></i>
                                     <h3>{name}</h3>
-                                    <p>{caption}</p>
+                                    <p style = {{fontSize:'12px'}}>{caption}</p>
                                     <Link to = {`/course/${slugify(name)}`}>
                                         <button className = "register">Register</button>
                                     </Link>
