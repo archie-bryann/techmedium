@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 function About({imagesUrl}) {
@@ -10,8 +11,9 @@ function About({imagesUrl}) {
 
                 <div className="content">
                     <h3>start your journey to a better life with our practical courses</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus incidunt dolorum voluptas saepe, animi perspiciatis praesentium ipsa numquam et possimus dolorem enim similique, quod dicta necessitatibus ducimus officiis nemo!</p>
-                    <a href="#"><button>learn more</button></a>
+                    <p>TechMedium is a leading tech education company, created and started by an IT enthusiast in 2020. 2x Award-winning courses (Best Online Coding Bootcamp winner 2020). We have the vision to be the leaders in the IT training Industry, in Nigeria and Internationally.</p>
+                    <Link to = "/courses#course"><a><button>Start Learning</button></a></Link>
+
                 </div>
 
                 <div className="image">

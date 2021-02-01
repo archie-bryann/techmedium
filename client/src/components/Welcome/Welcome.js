@@ -8,12 +8,12 @@ function Welcome({imagesUrl}) {
 
                 <div className="content">
                     <h1>learn anything from home</h1>
-                    {/* <p>"You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future." - Steve Jobs   </p> */}
-                    <p>With TechMedium, you gain the ability to learn anything you want from home. </p>
+                    <p>"You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future." - Steve Jobs   </p>
+                    {/* <p>With TechMedium, you gain the ability to learn anything you want from home. </p> */}
 
                     {/* <a href="#"><button>view courses</button></a> */}
                     <Link to = "/courses#course">
-                        <button>view courses</button>
+                        <button>enrol now</button>
                     </Link>
                 </div>
 

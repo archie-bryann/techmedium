@@ -30,7 +30,7 @@ function Courses({courses, limit}) {
             <div style = {{height:'50px'}}></div>
         )}
 
-        <h1 className="heading">our courses</h1>
+        <h1 className="heading" style = {{fontSize:'35px'}}>our courses/certificates</h1>
         <h3 className="title">upgrade your skills with newest courses</h3>
       
         {(limit < 1) && (
@@ -47,7 +47,7 @@ function Courses({courses, limit}) {
                             <div className = "box">
                                 <i className = {icon}></i>
                                 <h3>{name}</h3>
-                                <p>{caption}</p>
+                                <p style = {{fontSize:'12px'}}>{caption}</p>
                                 <Link to = {`/course/${slugify(name)}`}>
                                     <button className = "register">Register</button>
                                 </Link>
