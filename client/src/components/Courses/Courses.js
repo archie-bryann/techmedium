@@ -4,6 +4,7 @@ import slugify from 'react-slugify'
 
 function Courses({courses, limit}) {
 
+
     const [c, setC] = useState(courses);
 
     function searchCourse(e) {

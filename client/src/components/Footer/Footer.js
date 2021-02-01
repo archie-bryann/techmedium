@@ -6,7 +6,7 @@ function Footer() {
         <section className="footer">
 
             <div className="icons">
-                <a href="#" className="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/techmedium.com.ng/" target = "_blank" className="fab fa-facebook-f"></a>
                 <a href="#" className="fab fa-twitter"></a>
                 <a href="#" className="fab fa-instagram"></a>
                 <a href="#" className="fab fa-github"></a>

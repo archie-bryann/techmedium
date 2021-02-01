@@ -8,7 +8,8 @@ function Welcome({imagesUrl}) {
 
                 <div className="content">
                     <h1>learn anything from home</h1>
-                    <p>"You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future." - Steve Jobs   </p>
+                    {/* <p>"You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future." - Steve Jobs   </p> */}
+                    <p>With TechMedium, you gain the ability to learn anything you want from home. </p>
 
                     {/* <a href="#"><button>view courses</button></a> */}
                     <Link to = "/courses#course">
@@ -23,7 +24,7 @@ function Welcome({imagesUrl}) {
                         <div className="box">
                             <i className="fas fa-graduation-cap"></i>
                             <h3>trending courses</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sit!</p>
+                            <p>We have got the best courses which you can learn from</p>
                         </div>
                     </Link>
 
@@ -31,16 +32,16 @@ function Welcome({imagesUrl}) {
                         <div className="box">
                             <i className="fas fa-fire"></i>
                             <h3>free trial</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sit!</p>
+                            <p>Still Doubting! The first classes are free. Click here to get started</p>
                         </div>
                     </a>
 
-                    <Link to = "/courses#course"> 
+                    <Link to = "/courses#course?status=cert"> 
                     {/* title - TechMedium Certifications */}
                         <div className="box">
                             <i className="fas fa-award"></i>
                             <h3>certifications</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sit!</p>
+                            <p>TechMedium' certificates prove fundamental knowledge of web development.</p>
                         </div>
                     </Link>
                 </div>

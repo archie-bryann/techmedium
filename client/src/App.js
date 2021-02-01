@@ -35,10 +35,10 @@ function App() {
               <Contact imagesUrl = {imagesUrl} serverUrl = {serverUrl} />
           </Fragment>
         )} />
-        <Route path = "/courses" exact = {true} component = {()=>(
+        <Route path = "/courses" exact = {true} component = {({match})=>(
           <Fragment>
               <Header2 />
-              <Courses courses = {courses} limit = {0} />
+              <Courses courses = {courses} match = {match} limit = {0} />
           </Fragment>
         )} />
 
@@ -49,7 +49,6 @@ function App() {
                 {/* short note and video explanation on it */}
               </Fragment>
         )} />
-
         <Route path = "/certifications" exact = {true} component = {({match})=>(
           <Fragment>
               
