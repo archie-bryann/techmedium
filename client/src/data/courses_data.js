@@ -80,9 +80,9 @@ const courses = [
     caption:"The UI/UX Certificate proves fundamental knowledge of UI/UX",
     duration: 30,
     fee: 55500,
-    description:"<h3>Description</h3><br /><li>You will learn about users and their behaviours, goals, motivation and needs in relation to UI/UX.</li> <br /> <li>You will learn how to create user-centered designs.</li> <br /> <li>You will learn how to quickly and iteratively create user flows, wireframes, prototypes, low and high fidelity mockups.</li> <br /> <li>You will learn how to use Adobe XD to create UIX for various applications accross both small and large screens.</li> <br /> <li> You will also learn how to improve your excellent communication, presentation, collaboration, and interpersonal skills</li> <br /> <li>The UI/UX Certificate proves fundamental knowledge of UI/UX.</li>",
+    description:"<h3>Description</h3><br /><li>You will learn about users and their behaviours, goals, motivation and needs in relation to UI/UX.</li> <br /> <li>You will learn how to create user-centered designs.</li> <br /> <li>You will learn how to quickly and iteratively create user flows, wireframes, prototypes, low and high fidelity mockups.</li> <br /> <li>You will learn how to use Adobe XD to create UI for various applications accross both small and large screens.</li> <br /> <li> You will also learn how to improve your excellent communication, presentation, collaboration, and interpersonal skills</li> <br /> <li>The UI/UX Certificate proves fundamental knowledge of UI/UX.</li>",
     payUrl:"",
-    video:'' 
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/TgqeRTwZvIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
 },
 {
     id: 6,
@@ -179,7 +179,7 @@ const courses = [
     fee: 50000,
     description:"<h3>Description</h3><br /><li>Java is a programming language.</li> <br /> <li></li> <br /> <li>Java is used in millions of web applications.</li> <br /> <li>By mastering Java, you will be able to develop mobile applications, web applications, games, and much more.</li> <br /> <li>The Java Developer Certificate proves fundamental knowledge of Java.</li>",
     payUrl:"",
-    video:''  
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/mAtkPQO1FcA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'  
     
 },
 {
@@ -192,7 +192,7 @@ const courses = [
     fee: 50000,
     description:"<h3>Description</h3><br /><li>C++ is a programming language.</li> <br /> <li>You will learn about variables, loops, functions and classes in C++.</li> <br /> <li>You will learn how to create desktop applications with C++.</li> <br /> <li>The C++ Developer Certificate proves fundamental knowledge of C++.</li>",
     payUrl:"",
-    video:''  
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/kJkB_Tggk8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'  
     
 },
 {
@@ -205,7 +205,7 @@ const courses = [
     fee: 60000,
     description:"<h3>Description</h3><br /><li>C# is a programming language.</li> <br /> <li>You will be taught the basics of C#: variables, loops, functions, classes and so much more.</li> <br /> <li>The C# Developer Certificate proves fundamental knowledge of C#.</li>",
     payUrl:"",
-    video:''  
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/paJUbVeKEOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'  
 },
 {
     id: 17,
@@ -217,7 +217,7 @@ const courses = [
     fee: 55500,
     description:"<div class = 'container'><h3>Description</h3><br /> SQL is a standard for accessing database systems. SQL statements are used to retrieve and update data in a database. <br /><br /> <ul><li>SQL can execute queries against a database</li></li>SQL can retrieve data from a database</li><li>SQL can insert records in a database</li><li>SQL can update records in a database</li><li>SQL can delete records from a database</li><li>SQL can create new databases</li><li>SQL can create new tables in a database</li><li>SQL can create stored procedures in a database</li><li>SQL can create views in a database</li><li>SQL can set permissions on tables, procedures, and views</li></ul><br />By mastering this subject you will be able to retrieve and update data from a database.<div>",
     payUrl:"",
-    video:''  
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/27axs9dO7AE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'  
 },
 {
     id: 18,
@@ -229,7 +229,7 @@ const courses = [
     fee: 60000,
     description:"<h3>Description</h3><br /><li>PHP is a powerful server-side scripting language for creating dynamic and interactive websites. PHP is the widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</li> <br /> <li>PHP is perfectly suited for Web development and can be embedded directly into the HTML code.</li> <br /> <li>SQL (Structured Query Language) is an ANSI (American National Standards Institute) standard for accessing database systems. SQL statements are used to retrieve and update data in a database.</li> <br /> <li>By mastering these subjects you will be able to develop and maintain dynamic and interactive web pages and also retrieve and update data from a database over the internet.</li> <br /> <li>The PHP Developer Certificate proves fundamental knowledge of web development using PHP and MySQL.</li>",
     payUrl:"",
-    video:'' 
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/mBL9Athx7ms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
 },
 {
     id: 19,
@@ -241,7 +241,7 @@ const courses = [
     fee: 55500,
     description:"<h3>Description</h3><br /><li>Node.js is a server-side JavaScript run-time environment.</li> <br /> <li>Node.js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature.</li> <br /> <li>You will learn about build complex single-page applications, Real-Time Chats, Complex Single-Page Applications and much more using Node.js</li> <br /> <li>The Nodejs Developer Certificate proves fundamental knowledge of Nodejs.</li>",
     payUrl:"",
-    video:'' 
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/uVwtVBpw7RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
 },
 {
     id: 20,
@@ -253,7 +253,7 @@ const courses = [
     fee: 55500,
     description:"<h3>Description</h3><br /><li>Data is a collection of information. One purpose of Data Science is to structure data, making it interpretable and easy to work with.</li> <br /> <li>Python is a programming language widely used by Data Scientists. Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform data analysis.</li> <br /> <li>Mathematical functions are important to know as a Data Scientist, to make predictions and interpret them.</li> <br /> <li>Statistics is the science of analyzing data.</li> <br /> <li>The Data Science Developer Certificate proves fundamental knowledge of Python, Mathematical functions, and Statistics.</li>",
     payUrl:"",
-    video:'' 
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/xC-c7E5PK0Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
 },
 {
     id: 21,
@@ -265,8 +265,56 @@ const courses = [
     fee: 55500,
     description:"<h3>Description</h3><br /><li>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.</li> <br /> <li>Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.</li>  <br /> <li>Python is a programming language widely used by Machine learning experts. Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform machine learning.</li> <br /> <li>The Machine learning Developer Certificate proves fundamental knowledge of Machine learning.</li>",
     payUrl:"",
-    video:'' 
-}
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/HcqpanDadyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 23,
+    icon:"fas fa-file-word",
+    name:"ms word",
+    full:"Microsoft Word",
+    caption:"The MS Word Certificate proves fundamental knowledge of MS Word",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the Ms Word course students will have usable knowledge of the following: <br /><br /> <li>Learn how to use innovative tools and features to create documents</li> <br /> <li>Insert Pictures, tables, word art and so much more!</li> <br /> <li> Not to mention automating the mail merge.</li> <br /> <li>All in all adding footnotes and headers.</li> <br /> <li>Formatting text and displaying data graphically. i.e bar charts.</li> <br /> <li>In addition saving formats, pdf and different versions.</li> <br /><br /> The MS Word proves Certificate fundamental knowledge of MS Word.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/nqM1LUnsa_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 24,
+    icon:"fas fa-file-excel",
+    name:"ms excel",
+    full:"Microsoft Excel",
+    caption:"The MS Excel Certificate proves fundamental knowledge of MS Excel",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro Ms Excel course students will have usable knowledge of the following: <br /> <li>Not to mention creating a basic worksheet.</li> <br /> <li>Overall identify the user interface and customize the interface.</li> <br /> <li>Work with cells and enter data in an workbook.</li> <br /> <li>Create basic formulas.</li> <br /> <li>All in all calculate using functions.</li> <br /> <li>In turn copy formulas and functions.</li> <br /> <li>Overall manipulate worksheet data and modify worksheet elements.</li> <br /> <li>Search worksheet data and modify Rows and columns.</li> <br /> <li>Modify and work with fonts.</li> <br /> <li>Spell check a worksheet.</li> <br /> <li>Overall apply number formats.</li> <br /> <li>and so much more ....</li> <br /> The MS Excel Certificate proves fundamental knowledge of MS Excel.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/s8B1bFXYE78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 25,
+    icon:"fas fa-file-powerpoint",
+    name:"ms powerpoint",
+    full:"Microsoft Powerpoint",
+    caption:"The MS Powerpoint Certificate proves fundamental knowledge of MS Powerpoint",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3> <br /> Overall by the end of the intro Ms PowerPoint course students will have usable knowledge of the following: <br /> <li>Define presentation software.</li> <br /> <li>Learn to Plan an effective presentation.</li> <br /> <li>Not to mention Examine the PowerPoint window.</li> <br /> <li>Enter slide text.</li> <br /> <li>Add a new slide</li> <br /> <li>Apply a design theme.</li> <br /> <li>In addition Compare presentation views.</li> <br /> <li>Overall Print a PowerPoint presentation.</li> <br /> <li>and so much more.</li> <Br /> The MS Powerpoint Certificate proves fundamental knowledge of MS Powerpoint.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/aOeOn2OK5zY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 26,
+    icon:"fas fa-th",
+    name:"ms access",
+    full:"Microsoft Access",
+    caption:"The MS Access proves Certificate fundamental knowledge of MS Access",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro Ms Access course students will have usable knowledge of the following:  <br /> <li>Identify the elements of the access interface and the different structure of a database.</li> <br /> <li>Overall focus of the relational database design process.</li> <br /> <li>Not to mention work with fields and datatypes.</li> <br /> <li>Create a basic database.</li> <br /> <li>All in all create tables and work with design view.</li> <br/> <li>In turn modify table structures and create table relationships.</li> <br /> <li> Overall create sql queries and using joins. </li> <br /> <li>Modify table data using sort and filter.</li> <br /> <li>In addition retrieve data using select queries.</li> <br /> <li>Overall query a database.</li> <br /> <li>In turn work on sub data sheets and forms.</li> <br /> <li>Overall work on forms and modify forms.</li> <br /> <li>Not to mention organize reports using procedures.</li> <br /> <li>All in all import and export data.</li> <br /> <li>and so much more.</li> <br /> The MS Access proves Certificate fundamental knowledge of MS Access.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/eXiCza050ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
 ]
 
 
