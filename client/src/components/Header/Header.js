@@ -155,7 +155,7 @@ function Header() {
                 <ul>
                     <li><a href="#home" onClick = {setHome} className = {homeClass}>home</a></li>
                     <li><a href="#about" onClick = {setAbout} className = {aboutClass}>about</a></li>
-                    <li><a href="#teacher" onClick = {setTeacher} className = {teacherClass}>teachers</a></li>
+                    {/* <li><a href="#teacher" onClick = {setTeacher} className = {teacherClass}>teachers</a></li> */}
                     {/* <li><a href="#course" onClick = {setCourse} className = {courseClass}>courses</a></li> */}
                     <li><Link to = "/courses#courses"><a onClick = {setCourse} className = {courseClass}>courses</a></Link></li>
                     <li><a href="#review" onClick = {setReview} className = {reviewClass}>reviews</a></li>

@@ -29,7 +29,7 @@ function App() {
               <Header />
               <Welcome imagesUrl = {imagesUrl} />
               <About imagesUrl = {imagesUrl} />
-              <Teacher imagesUrl = {imagesUrl} />
+              {/* <Teacher imagesUrl = {imagesUrl} /> */}
               <Courses courses = {courses} limit = {6} />
               <Reviews imagesUrl = {imagesUrl} />
               <Contact imagesUrl = {imagesUrl} serverUrl = {serverUrl} />

@@ -71,6 +71,19 @@ const courses = [
     payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/MSW6SwR0wIg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
+// here too
+{
+    id: 2000,
+    icon:"fas fa-dice",
+    name:"UI/UX",
+    full:"",
+    caption:"The UI/UX Certificate proves fundamental knowledge of UI/UX",
+    duration: 30,
+    fee: 55500,
+    description:"<h3>Description</h3><br /><li>You will learn about users and their behaviours, goals, motivation and needs in relation to UI/UX.</li> <br /> <li>You will learn how to create user-centered designs.</li> <br /> <li>You will learn how to quickly and iteratively create user flows, wireframes, prototypes, low and high fidelity mockups.</li> <br /> <li>You will learn how to use Adobe XD to create UIX for various applications accross both small and large screens.</li> <br /> <li> You will also learn how to improve your excellent communication, presentation, collaboration, and interpersonal skills</li> <br /> <li>The UI/UX Certificate proves fundamental knowledge of UI/UX.</li>",
+    payUrl:"",
+    video:'' 
+},
 {
     id: 6,
     icon:"fab fa-bootstrap",
@@ -147,13 +160,112 @@ const courses = [
     id: 12,
     icon:"fab fa-python",
     name:"django (Web Development)",
-    full:"django django (Web Development)",
+    full:"django (Web Development)",
     caption:"The Django Developer Certificate proves fundamental knowledge of Python.",
-    duration: 15,
-    fee: 50000,
+    duration: 30,
+    fee: 60000,
     description:"<h3>Description</h3><br /><li>Python is a programming language.</li> <br /> <li>Python is used in millions of web applications.</li> <br /> <li>By mastering Python, you will be able to develop and maintain server programming.</li> <br /> <li>The Python Developer Certificate proves fundamental knowledge of Python.</li>",
     payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/SIyxjRJ8VNY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'  
+},
+// start here
+{
+    id: 13,
+    icon:"fab fa-java",
+    name:"java",
+    full:"java",
+    caption:"The Java Developer Certificate proves fundamental knowledge of Java.",
+    duration: 30,
+    fee: 50000,
+    description:"<h3>Description</h3><br /><li>Java is a programming language.</li> <br /> <li></li> <br /> <li>Java is used in millions of web applications.</li> <br /> <li>By mastering Java, you will be able to develop mobile applications, web applications, games, and much more.</li> <br /> <li>The Java Developer Certificate proves fundamental knowledge of Java.</li>",
+    payUrl:"",
+    video:''  
+    
+},
+{
+    id: 14,
+    icon:"fab fa-cuttlefish",
+    name:"c++",
+    full:"c++",
+    caption:"The C++ Developer Certificate proves fundamental knowledge of C++.",
+    duration: 15,
+    fee: 50000,
+    description:"<h3>Description</h3><br /><li>C++ is a programming language.</li> <br /> <li>You will learn about variables, loops, functions and classes in C++.</li> <br /> <li>You will learn how to create desktop applications with C++.</li> <br /> <li>The C++ Developer Certificate proves fundamental knowledge of C++.</li>",
+    payUrl:"",
+    video:''  
+    
+},
+{
+    id: 16,
+    icon:"fab fa-cuttlefish",
+    name:"c#",
+    full:"c#",
+    caption:"The C# Developer Certificate proves fundamental knowledge of C++.",
+    duration: 15,
+    fee: 60000,
+    description:"<h3>Description</h3><br /><li>C# is a programming language.</li> <br /> <li>You will be taught the basics of C#: variables, loops, functions, classes and so much more.</li> <br /> <li>The C# Developer Certificate proves fundamental knowledge of C#.</li>",
+    payUrl:"",
+    video:''  
+},
+{
+    id: 17,
+    icon:"fas fa-database",
+    name:"sql",
+    full:"structured query language",
+    caption:"The SQL Developer Certificate proves fundamental knowledge of SQL",
+    duration: 25,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> SQL is a standard for accessing database systems. SQL statements are used to retrieve and update data in a database. <br /><br /> <ul><li>SQL can execute queries against a database</li></li>SQL can retrieve data from a database</li><li>SQL can insert records in a database</li><li>SQL can update records in a database</li><li>SQL can delete records from a database</li><li>SQL can create new databases</li><li>SQL can create new tables in a database</li><li>SQL can create stored procedures in a database</li><li>SQL can create views in a database</li><li>SQL can set permissions on tables, procedures, and views</li></ul><br />By mastering this subject you will be able to retrieve and update data from a database.<div>",
+    payUrl:"",
+    video:''  
+},
+{
+    id: 18,
+    icon:"fab fa-php",
+    name:"PHP",
+    full:"hypertext pre-processor",
+    caption:"The PHP Developer Certificate proves fundamental knowledge of web development using PHP and MySQL.",
+    duration: 20,
+    fee: 60000,
+    description:"<h3>Description</h3><br /><li>PHP is a powerful server-side scripting language for creating dynamic and interactive websites. PHP is the widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</li> <br /> <li>PHP is perfectly suited for Web development and can be embedded directly into the HTML code.</li> <br /> <li>SQL (Structured Query Language) is an ANSI (American National Standards Institute) standard for accessing database systems. SQL statements are used to retrieve and update data in a database.</li> <br /> <li>By mastering these subjects you will be able to develop and maintain dynamic and interactive web pages and also retrieve and update data from a database over the internet.</li> <br /> <li>The PHP Developer Certificate proves fundamental knowledge of web development using PHP and MySQL.</li>",
+    payUrl:"",
+    video:'' 
+},
+{
+    id: 19,
+    icon:"fab fa-node",
+    name:"nodeJS (Web Development)",
+    full:"nodeJS (Web Development)",
+    caption:"The Nodejs Developer Certificate proves fundamental knowledge of Nodejs",
+    duration: 25,
+    fee: 55500,
+    description:"<h3>Description</h3><br /><li>Node.js is a server-side JavaScript run-time environment.</li> <br /> <li>Node.js is primarily used for non-blocking, event-driven servers, due to its single-threaded nature.</li> <br /> <li>You will learn about build complex single-page applications, Real-Time Chats, Complex Single-Page Applications and much more using Node.js</li> <br /> <li>The Nodejs Developer Certificate proves fundamental knowledge of Nodejs.</li>",
+    payUrl:"",
+    video:'' 
+},
+{
+    id: 20,
+    icon:"fas fa-info",
+    name:"data science",
+    full:"data science",
+    caption:"The Data Science Developer Certificate proves fundamental knowledge of Python, Mathematical functions, and Statistics.",
+    duration: 25,
+    fee: 55500,
+    description:"<h3>Description</h3><br /><li>Data is a collection of information. One purpose of Data Science is to structure data, making it interpretable and easy to work with.</li> <br /> <li>Python is a programming language widely used by Data Scientists. Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform data analysis.</li> <br /> <li>Mathematical functions are important to know as a Data Scientist, to make predictions and interpret them.</li> <br /> <li>Statistics is the science of analyzing data.</li> <br /> <li>The Data Science Developer Certificate proves fundamental knowledge of Python, Mathematical functions, and Statistics.</li>",
+    payUrl:"",
+    video:'' 
+},
+{
+    id: 21,
+    icon:"fas fa-desktop",
+    name:"machine learning",
+    full:"machine learning",
+    caption:"The Machine learning Developer Certificate proves fundamental knowledge of Data Science",
+    duration: 25,
+    fee: 55500,
+    description:"<h3>Description</h3><br /><li>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.</li> <br /> <li>Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.</li>  <br /> <li>Python is a programming language widely used by Machine learning experts. Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform machine learning.</li> <br /> <li>The Machine learning Developer Certificate proves fundamental knowledge of Machine learning.</li>",
+    payUrl:"",
+    video:'' 
 }
 ]
 
