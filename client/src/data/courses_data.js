@@ -106,7 +106,7 @@ const courses = [
     fee: 30000,
     description:"<h3>Description</h3><br /><li>You will learn how to mirror the nested hierarchy style of HTML in CSS.</li> <br /> <li>You will learn how to create variables and use them as selectors. </li> <br /> <li>You will learn how to define variables as defaults.</li>  <br /> <li>You will learn parent referencing using a prefix</li> <br /> <li>You will learn about mixins, custom functions and much more</li> <br /> <li>The SASS Developer Certificate proves fundamental knowledge of web development using advanced SASS.</li>",
     payUrl:"",
-    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/yalxT0PEx8c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/UlOzbc219AM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 },
 {
     id: 8,
@@ -315,6 +315,78 @@ const courses = [
     payUrl:"",
     video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/eXiCza050ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
 },
+{
+    id: 27,
+    icon:"fas fa-th",
+    name:"ms access",
+    full:"Microsoft Access",
+    caption:"The MS Access proves Certificate fundamental knowledge of MS Access",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro Ms Access course students will have usable knowledge of the following:  <br /> <li>Identify the elements of the access interface and the different structure of a database.</li> <br /> <li>Overall focus of the relational database design process.</li> <br /> <li>Not to mention work with fields and datatypes.</li> <br /> <li>Create a basic database.</li> <br /> <li>All in all create tables and work with design view.</li> <br/> <li>In turn modify table structures and create table relationships.</li> <br /> <li> Overall create sql queries and using joins. </li> <br /> <li>Modify table data using sort and filter.</li> <br /> <li>In addition retrieve data using select queries.</li> <br /> <li>Overall query a database.</li> <br /> <li>In turn work on sub data sheets and forms.</li> <br /> <li>Overall work on forms and modify forms.</li> <br /> <li>Not to mention organize reports using procedures.</li> <br /> <li>All in all import and export data.</li> <br /> <li>and so much more.</li> <br /> The MS Access proves Certificate fundamental knowledge of MS Access.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/eXiCza050ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 28,
+    icon:"fas fa-handshake",
+    name:"Forex",
+    full:"Foreign Exchange",
+    caption:"The Foreign Trading Certificate proves fundamental knowledge of Foreign Exchange",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro Forex course, students will have usable knowledge of the following:  <br /> <br /> <li>Trading Sessions</li> <br /> <li>Charting Platforms & Order Types</li> <br/> <li>Different Styles of Trading</li> <br/> <li>Charting Time Frames</li> <br /> <li>Technical Analysis</li> <br/> <li>Technical Analysis</li> <br /> <li>Risk and Money Management</li> <br/> <li>and much more...</li>  <br /> The Foreign Trading Certificate proves fundamental knowledge of Foreign Exchange.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/NhFlqFVBmxc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 29,
+    icon:"fas fa-bullhorn",
+    name:"Digital Marketing",
+    full:"Digital Marketing",
+    caption:"The Digital Marketing Certificate proves fundamental knowledge of Digital Marketing",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> By the end of the Digital Marketing Course, students will have usable knowledge of the following::  <br /> <br /> <li>Overall plan your online business strategies</li> <br /> <li>Get started with search, including to make search work for you.</li> <br/> <li>Understand and create content/posts that drives user engagement.</li> <br/> <li>Not to mention advertising on a social media platform.</li> <br /> <li>Learn how to be found locally and internationally.</li> <br/> <li>Overall learn about google analytics, google adsense and marketing strategies.</li> <br /> <li>Implement social media marketing strategy reporting systems.</li> <br/> <li>Learn ROI and how to benchmark standards.</li> <br /> <li>Overall track and measure web traffic.</li> <br /> <li>Implement conversion and lead strategies.</li> <br /> <li>Not to mention online advertising.</li> <br /> <li>and so much more...</li> <br /> The Digital Marketing Certificate proves fundamental knowledge of Digital Marketing.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/bixR-KIJKYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 30,
+    icon:"fab fa-android",
+    name:"Android App Development (Java)",
+    full:"Android App Development with Java",
+    caption:"The Android App Development Certificate proves fundamental knowledge of Android App Development",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro App Development course with Java and android studio course, students will have usable knowledge of the following:  <br /> <br /> <li>Understand Android System Architecture and the Operating environment.</li> <br /> <li>Overall learn about support graphics & touch interface.</li> <br/> <li>In turn Learn service location.</li> <br/> <li>Understand how to work with the Android Location services API.</li> <br /> <li>Not to mention Store data locally using SQLite.</li> <br/> <li>Using Firebase to send realtime notifications.</li> <br /> <li>All in all Create beautiful screen layouts using the Constraint layout.</li> <br/> <li>In turn test and how to publish your app.</li> <br /> The Android App Development Certificate proves fundamental knowledge of Android App Development.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/qqzy1EEid0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 31,
+    icon:"fab fa-apple",
+    name:"Ios App Development (Swift)",
+    full:"Ios App Development with Swift",
+    caption:"The Ios App Development Certificate proves fundamental knowledge of Ios App Development",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro Swift course students will have usable knowledge of the following:  <br /> <br /> <li>Understand Swift IDE and environment</li> <br /> <li>Understand IOS and the MACOS environment</li> <br/> <li>Be able to understand classes coupled with Objects.</li> <br/> <li>Understand the use of datatypes together with operators.</li<br /> <li>Write a simple Swift syntax.</li> <br />  <li>Closures, Optionals and Tuples.</li> <br />  <li>Learn about Methods, functions coupled with sequential code.</li> <br /><li>Decision making: If statements, not to mention switch cases.</li> <br /><li>Loops, namely a do while, for loop and while loop.</li><br /><li>With attention to commenting, refracting code and naming standards.</li> <br /><li>Learn multi dimensional arrays and hashes</li> <br /><li>Overall develop knowledge on using Swift Modules.</li>  <br /><li>Pseudo Code and flowcharts.</li>  <br /><li>IOS development.</li> <br /><li>Understand inheritance, abstract classes & inner classes</li> <br /><li>Polyphorism & method overriding & overloading.</li> <br /><li>Delegates & event handling.</li> <br /><li>Tasks, multi threading & threads.</li> <br /><li>Synchronous and agile programming.</li> <br /><li>Learn about Loops, do while, for loop and while loop.</li> <br /><li>Encryption and security standards.</li> <br /> <li>Learn sql queries and database connections.</li> <br /><li>Lambda expressions.</li> <br /><li>Arraylists and dictionary lists.</li> <br /><li>2 dimensional arrays.</li> <br /><li>intro to app development in IOS.</li>  <br /> The Ios App Development Certificate proves fundamental knowledge of Ios App Development.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/Vv2zJErQt84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+},
+{
+    id: 32,
+    icon:"fas fa-asterisk",
+    name:"Hybrid App Development (Ionic)",
+    full:"Hybrid App Development with Ionic",
+    caption:"The Hybrid App Development Certificate proves fundamental knowledge of Hybrid App Development",
+    duration: 30,
+    fee: 55500,
+    description:"<div class = 'container'><h3>Description</h3><br /> Overall by the end of the intro App Development course with ionic and cordova, students will have usable knowledge of the following: <br /> <br /> <li>Understand Hybrid Mobile App Development Frameworks: An Introduction.</li>  <br /> <li>Overall learn Ionic Components.</li><br /> <li>Development with Ionic-React</li> <br /> <li>In turn how to work Ionic Split Pane, Grid, Storage and Deploying your App.</li> <br /> <li>All in all Learn to access Native Capabilities of Devices: Cordova and Ionic Native.</li> <br /> <li>In turn test and how to publish your app.</li> <br /> The Hybrid App Development Certificate proves fundamental knowledge of Hybrid App Development.</div>",
+    payUrl:"",
+    video:'<iframe width="560" height="315" src="https://www.youtube.com/embed/34fDUKaJBtw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' 
+}
 ]
 
 

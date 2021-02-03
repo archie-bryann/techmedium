@@ -19,7 +19,7 @@ function App() {
   const serverUrl = "http://localhost:7000/";
   // const serverUrl = "https://api.techmedium.com.ng/";
   const imagesUrl = "http://localhost:9000/";
-  // const imagesUrl = "http://images.techmedium.com.ng/";
+  // const imagesUrl = "https://images.techmedium.com.ng/";
 
   return (
    <Fragment>

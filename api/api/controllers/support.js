@@ -11,12 +11,15 @@ exports.store_message = (req,res,next) => {
     pool.getConnection((err,conn)=>{
         if(err) {
             console.log(err)
-            return res.status(500).json({error:'An error occured. Please try again!'});
+            // return res.status(500).json({error:'An error occured. Please try again!'});
+            return res.status(200).json(err);
+
         } else {
             conn.query(`insert into messages (fullname,email,phone,message,timestamp,timedate) values (?,?,?,?,?,?)`, [fullname, email, phone, message,timestamp,datetime], (err,result)=>{
                 conn.release();
                 if(err) {
-                    return res.status(500).json({error:'An error occured. Please try again!'});
+                    // return res.status(500).json({error:'An error occured. Please try again!'});
+                    return res.status(200).json(err);
                 } else {
                     return res.status(200).json({
                         error:0

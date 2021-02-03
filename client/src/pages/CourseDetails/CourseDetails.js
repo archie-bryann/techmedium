@@ -31,7 +31,9 @@ function CourseDetails({match, courses}) {
 
             <div className = "container">
                 <div className = "videoWrapper" dangerouslySetInnerHTML={{__html: course.video}} /> 
-
+                <br />
+                <br />
+                <br />
                 <p className =  "description" dangerouslySetInnerHTML={{__html: course.description}} />
 
                 <br />
@@ -43,7 +45,7 @@ function CourseDetails({match, courses}) {
             <br />
 
             <a href = {course.payUrl}>
-                <button className = "see-more" style = {{width:'80%', height:'4.5rem',fontSize:'17px',paddingTop:'1rem'}}>register for this course (₦{Number(course.fee).toLocaleString(undefined, {maximumFractionDigits:2})})</button>
+                <button className = "see-more res" style = {{width:'80%', height:'4.5rem',fontSize:'17px',paddingTop:'1rem'}}>register for this course (₦{Number(course.fee).toLocaleString(undefined, {maximumFractionDigits:2})})</button>
             </a>
             <div style = {{height:'20px'}}></div>
        </section>

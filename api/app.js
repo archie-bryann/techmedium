@@ -31,9 +31,9 @@ app.use((req,res,next) => {
       }
 });
 
-app.get('/', (req,res,next)=>{
-    return res.status(200).json({message:"Working"})
-})
+// app.get('/', (req,res,next)=>{
+//     return res.status(200).json({message:"Working"})
+// })
 
 app.use('/support', supportRoutes);
 

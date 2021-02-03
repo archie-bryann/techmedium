@@ -49,7 +49,7 @@ function Courses({courses, limit}) {
                                 <h3>{name}</h3>
                                 <p style = {{fontSize:'12px'}}>{caption}</p>
                                 <Link to = {`/course/${slugify(name)}`}>
-                                    <button className = "register">Register</button>
+                                    <button className = "register">learn more</button>
                                 </Link>
                             </div>
 
@@ -63,7 +63,7 @@ function Courses({courses, limit}) {
                                     <h3>{name}</h3>
                                     <p style = {{fontSize:'12px'}}>{caption}</p>
                                     <Link to = {`/course/${slugify(name)}`}>
-                                        <button className = "register">Register</button>
+                                        <button className = "register">learn more</button>
                                     </Link>
                             </div>
                         </Fragment>

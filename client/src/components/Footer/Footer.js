@@ -7,6 +7,8 @@ function Footer() {
 
             <div className="icons">
                 {/* <a href="" target = "_blank" className="fab fa-facebook-f"></a> */}
+                <a href="tel:+2349015871166" className="fas fa-phone"></a>
+                <a href="mailto:support@techmedium.com.ng" className="fas fa-envelope"></a>
                 <a href="https://www.instagram.com/techmedium.com.ng/" className="fab fa-instagram"></a>
                 <a href="https://twitter.com/techmediumng" className="fab fa-twitter"></a>
                 <a href="https://github.com/techmedium" className="fab fa-github"></a>

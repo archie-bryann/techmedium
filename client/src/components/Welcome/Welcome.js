@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Welcome({imagesUrl}) {
 
     return (
-            <section className="home" id = "home" style = {{background:'linear-gradient(rgba(0, 0, 0,.4),black), url(http://localhost:9000/636221660501932536-GettyImages-491632268.jpg) no-repeat center'}}>
+            <section className="home" id = "home" style = {{background:`linear-gradient(rgba(0, 0, 0,.4),black), url(${imagesUrl}636221660501932536-GettyImages-491632268.jpg) no-repeat center`}}>
 
                 <div className="content">
                     <h1>learn anything from home</h1>

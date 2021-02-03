@@ -68,8 +68,13 @@ function Contact({imagesUrl,serverUrl}) {
                     setIsLoading(false);
                     if(data.error===0) {
                         toast.success("We just received your message. We will get back to you as soon as we can.", {
-                            position: toast.POSITION.BOTTOM_RIGHT
+                            position: toast.POSITION.BOTTOM_RIGHT,
+                            autoClose: false
                         })
+                        setFullname('');
+                        setPhone('');
+                        setEmail('');
+                        setMessage('');
                     } else {
                         toast.error(errorMessage, {
                             position: toast.POSITION.BOTTOM_RIGHT,
